@@ -35,4 +35,11 @@ gunzip title.*
 python ingest.py
 ```
 
+# Run the app
+
+```bash
+python app.py
+# browse to http://0.0.0.0:8000
+```
+
 

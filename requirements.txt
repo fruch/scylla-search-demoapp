@@ -2,3 +2,5 @@ sanic
 scylla-driver
 pandas
 tqdm
+https://github.com/fruch/aiocassandra/archive/scylla-driver.zip
+

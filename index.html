@@ -25,6 +25,12 @@
       minLength: 2,
       select: function( event, ui ) {
         log( "Selected: " + ui.item.value + " aka " + ui.item.id );
+        $.getJSON( "https://api.themoviedb.org/3/movie/" + ui.item.id + "?api_key=[API KEY]", function( data, status, xhr ) {
+          if (data.poster_path) {
+              console.log("https://image.tmdb.org/t/p/w220_and_h330_face" + data.poster_path)
+          }
+        });
+
       }
     });
   } );
