@@ -1,0 +1,4 @@
+sanic
+scylla-driver
+pandas
+tqdm
